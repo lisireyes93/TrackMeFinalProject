@@ -1,0 +1,307 @@
+body {
+  padding-top: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(216, 211, 206);
+  height:100%;
+} 
+
+
+form {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+input[type=text], select {
+  width: 50%;
+  padding: 8px;
+  margin: auto;
+  display: block;
+  border: 2px solid rgb(202, 182, 169);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=password], select {
+  width: 50%;
+  padding: 8px;
+  margin: auto;
+  display: block;
+  border: 2px solid rgb(202, 182, 169);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(216, 211, 206);
+  color: rgb(189, 13, 13);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  border-radius: 4px;
+}
+
+
+label {
+  padding-left: 27%;
+}
+
+h1 {
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  color: rgb(23, 35, 58);
+  text-shadow: 2px 2px rgb(202, 182, 169);
+}
+
+h3 {
+  font-family: 'Trebuchet MS';
+  color: rgb(23, 35, 58);
+  text-shadow: 2px 2px rgb(202, 182, 169);
+}
+
+h2 {
+  font-family: 'Trebuchet MS';
+  color: rgb(23, 35, 58);
+  text-shadow: 2px 2px rgb(202, 182, 169);
+}
+
+button {
+  color: rgb(23, 35, 58);
+  background-color: rgb(63, 78, 106);
+  width: 70px;
+  height: 40px;
+  padding: 12px;
+  margin: 0 6px 6px;
+  border: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-collapse: separate;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border: 2px solid rgb(74, 93, 128);
+}
+
+button:hover {
+  background-color: rgb(202, 182, 169);
+}
+
+a {
+  border-radius: 4px;
+  width: 100px;
+  padding: 12px;
+  margin: 0 6px 6px;
+  background: rgb(63, 78, 106);
+  color: rgb(23, 35, 58);
+  /* color: rgb(23, 35, 58); */
+  border: 5px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border: 2px solid rgb(74, 93, 128);
+  text-align: center;
+  /* text-shadow: 2px 2px rgb(74, 93, 128); */
+}
+
+a:hover {
+  background-color: rgb(202, 182, 169);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(180, 142, 121);
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.profilePicture {
+  height: 300px;
+  margin-left: 20px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  border: 2px solid rgb(74, 93, 128);
+}
+.pName {
+  font-size: 30px;
+  color: rgb(23, 35, 58);
+  text-shadow: 2px 2px rgb(202, 182, 169);
+}
+
+.updatesImage {
+  height: 200px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  float: left;
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(74, 93, 128);
+}
+
+.deleteUpdates {
+  float: right;
+  margin-left: 50%      
+}
+
+.update {
+  padding: 5px;
+  height: 300px;
+  width: 800px;
+  background-color: rgb(180, 142, 121);
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+
+.tattoo {
+  height: 100px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  border: 2px solid rgb(74, 93, 128);
+}
+.updateText {
+  float: right;
+  width: 400px;
+  margin-top: 40px;
+}
+
+.home {
+  width: 800px;
+  margin: auto;
+  text-align: justify;
+  border-radius: 5px;
+  
+}
+
+.homeBack {
+  width: 900px;
+  margin: auto;
+  background-color: rgb(180, 142, 121);
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+
+.missingImage {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border: 2px solid rgb(74, 93, 128);
+}
+
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: rgb(23, 35, 58);
+}
+.updateForm {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(180, 142, 121);
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.loginForm {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(180, 142, 121);
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  padding-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px
+  
+} 
+
+.signupForm {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(180, 142, 121);
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  padding-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px
+}
+
+.info {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(180, 142, 121);
+  box-shadow: 5px 5px rgb(202, 182, 169);
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-top: 15px;
+  margin-bottom: 30px
+
+}
+
+.insideInfo {
+  margin-left: 40px;
+}
+
+/* .title {
+  font-family: 'Trebuchet MS';
+}
+
+.title:hover {
+  color: brown;
+} */
+
+.image-container {
+  background-image: url("https://cdn5.vectorstock.com/i/1000x1000/67/89/seamless-minimalist-doodle-floral-pattern-vector-37166789.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 150px; /* Some height */
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(202, 182, 169);
+}
+/* .image-container{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+} */
+
+.title {
+  background-color: rgb(26, 36, 54);
+  color: rgb(255, 255, 255);
+  font-size: 5vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: multiply; /* This makes the cutout text possible */
+  border-radius: 5px;
+  
+}
